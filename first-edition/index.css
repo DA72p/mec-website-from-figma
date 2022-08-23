@@ -52,8 +52,14 @@
     padding: 5px 0;
 }
 
+#about-mec > p > span {
+    color: var(--dark-purple);
+    font-weight: bold;
+}
+
 #about-mec > p > span:first-of-type {
     color: var(--medium-purple);
+    font-weight: bold;
 }
 /* End About MEC */
 
