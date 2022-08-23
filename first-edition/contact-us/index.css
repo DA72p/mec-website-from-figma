@@ -1,0 +1,100 @@
+@import "../index.css";
+
+/* CONTACT US FULL */
+
+.contact-us-full {
+    padding-top: 15px;
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.contact-us-full * {
+    text-align: center;
+}
+
+.contact-us-full .heading-large {
+    text-transform: uppercase;
+}
+
+.contact-us-full p {
+    padding-bottom: 5px;
+}
+
+.form-section {
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-us-full > form > div > label {
+    padding: 2px 5px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.contact-us-full > form .form-section:first-of-type input {
+    width: 28.375%;
+}
+
+.contact-us-full > form .form-section:first-of-type input:first-of-type {
+    margin-right: 2.5%;
+}
+
+.contact-us-full > form .form-section:not(:first-of-type) input {
+    width: 60%;
+}
+
+.contact-us-full > form .form-section:last-of-type input {
+    height: 100px;
+}
+
+.contact-us-full > form button {
+    background: linear-gradient(180deg, #002ECF 0%, #890485 100%);
+    color: white;
+    border: 2px solid var(--standard-blue);
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* END CONTACT US FULL */
+
+/* EXECUTIVE TEAM */
+
+#exec-team {
+    background: linear-gradient(180deg, #92278F 0%, #002ECF 100%);
+    width: 100%;
+    margin: 15px auto;
+    color: white;
+}
+
+#exec-team > h1 {
+    padding: 10px 0;
+}
+
+#exec-team-profiles {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.exec-member {
+    padding: 15px 0;
+    display: block;
+}
+
+.exec-member-image {
+    width: 100px;
+}
+
+.exec-member-name {
+    font-weight: bold;
+}
+
+/* END EXECUTIVE TEAM */

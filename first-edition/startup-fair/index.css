@@ -1,0 +1,214 @@
+@import "../default-rules.css";
+
+/* Greeting */
+#startup-fair-greeting {
+    width: 100%;
+    background-image: url(../MIT\ illuminated\ dome.png);
+    background-repeat: none;
+    display: block;
+    margin: 5px auto;
+    color: white;
+    min-height: 250px;
+    background-size: 100%;
+}
+
+#startup-fair-greeting > * {
+    width: 70%;
+    margin: auto;
+}
+
+#startup-fair-greeting p {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.header-jumbo {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#button-row {
+    margin-bottom: 25px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-row > a > .button-text {
+    background-color: var(--dark-ocean);
+    padding: 5px 10px;
+    color: var(--dream-purple);
+    border: 3px solid var(--dream-purple);
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+#button-row > a:not(:first-of-type) .button-text {
+    color: var(--happy-blue);
+    border: 3px solid var(--happy-blue);
+}
+/* End Greeting */
+
+/* Startup Career Fair */
+#about-startup-career-fair {
+    color: white;
+    background-image: url(../purple-wavy.png);
+}
+
+#about-startup-career-fair > .heading-medium {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#about-startup-career-fair > p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+/* End Startup Career Fair */
+
+/* Timeline */
+#timeline > .long-rectangle {
+    background-color: var(--happy-blue);
+    margin-top: 50px;
+}
+
+#timeline-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.invite-item-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--navy-blue);
+    margin-top: -25px;
+    margin-bottom: 5px;
+    /* background-color: var(--navy-blue); */
+}
+
+#timeline-list li:nth-of-type(4n+1) > div > .invite-item-circle {
+    background-color: var(--sky-blue);
+}
+#timeline-list li:nth-of-type(4n+2) > div > .invite-item-circle {
+    background-color: var(--standard-blue);
+}
+#timeline-list li:nth-of-type(4n-1) > div > .invite-item-circle {
+    background-color: var(--dusk-blue);
+}
+#timeline-list li:nth-of-type(4n) > div > .invite-item-circle {
+    background-color: var(--dark-ocean);
+}
+
+.invite-title {
+    color: var(--standard-blue);
+}
+/* End Timeline */
+
+/* Start Sponsor */
+#become-sponsor {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: var(--light-gray);
+}
+
+#become-sponsor > * {
+    max-width: 70%;
+    margin: auto;
+}
+
+#become-sponsor > .small-rectangle {
+    margin-left: 15%;
+    width: 3.5%;
+}
+
+#become-sponsor > .heading-medium {
+    width: 70%;
+}
+
+#become-sponsor > p {
+    padding-top: 10px;
+}
+
+#become-sponsor > p > a {
+    color: var(--happy-blue);
+    font-weight: bold;
+}
+
+#become-sponsor > a > p {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: var(--office-purple);
+    border-radius: 3px;
+    width: 200px;
+    margin: 15px auto;
+}
+/* End Sponsor */
+
+/* Join as a student */
+#join-as-a-student {
+    padding: 15px 0;
+}
+
+#join-as-a-student p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#join-as-a-student > p > a {
+    color: var(--happy-blue);
+    font-weight: bold;
+}
+
+#join-as-a-student > p:nth-of-type(2) {
+    color: var(--standard-blue);
+    font-weight: bold;
+}
+
+#join-as-a-student > a > .button-text {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: var(--ufo-blue);
+    border-radius: 3px;
+    width: 200px;
+    margin: 15px auto;
+    border: none;
+}
+
+#reasons-for-startup-list {
+    list-style-type: none;
+    counter-reset: list-items;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#reasons-for-startup-list li {
+    padding: 10px 0;
+    line-height: 1.4;
+    text-indent: -40px;
+}
+
+#reasons-for-startup-list li::before {
+    counter-increment: list-items;
+    content: counter(list-items);
+    background: var(--happy-blue);
+    border: 2px solid var(--sky-blue);
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+/* End join as a student */
