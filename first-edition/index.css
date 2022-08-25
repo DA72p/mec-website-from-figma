@@ -3,14 +3,14 @@
 /* MEC introduction */
 .greeting {
     width: 100%;
-    min-height: 500px;
-    padding-top: 100px;
+    min-height: 400px;
+    padding-top: 50px;
     margin: 5px auto;
     display: block;
     text-align: center;
-    background-image: url(MIT\ Dome.png);
+    background-image: url("MIT Dome.png");
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 100%;
 }
