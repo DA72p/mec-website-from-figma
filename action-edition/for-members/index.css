@@ -1,0 +1,64 @@
+@import "../default-rules.css";
+
+/* SIGN IN */
+#sign-in-apparatus {
+    width: 45%;
+    margin: auto;
+    background-color: var(--light-gray);
+    border-radius: 35px;
+    display: flex;
+    margin: 25px auto;
+    min-height: 200px;
+}
+
+#sign-in-frame {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #92278F 0%, #002ECF 100%);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    justify-content: center;
+}
+
+#welcome-back {
+    display: block;
+    color: white;
+}
+
+#sign-in-form {
+    width: 39%;
+    display: block;
+    margin: auto;
+    padding-left: 8%;
+}
+
+#sign-in-heading {
+    padding-bottom: 15px;
+}
+
+#sign-in-form > form {
+    display: block;
+    margin: auto;
+}
+
+#sign-in-form > form > input {
+    display: block;
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid var(--standard-blue);
+    border-radius: 25px;
+}
+
+#sign-in-form > form > button {
+    margin-top: 5px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #002ECF 0%, #8C219A 100%);
+    border: 2px solid var(--standard-blue);
+    color: white;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* END SIGN IN */

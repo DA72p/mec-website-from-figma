@@ -1,0 +1,138 @@
+@import "../default-rules.css";
+
+/* UPCOMING EVENTS */
+#upcoming-events {
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#events-assets {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.event {
+    background: linear-gradient(180deg, #0400CF 0%, #3070D0 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+}
+
+.preview-image {
+    max-width: 150px;
+}
+
+.event-details {
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.event-action-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-action-items > button {
+    border-radius: 3px;
+    border: 3px solid white;
+    box-shadow: 0px 2px 2px #000;
+    color: white;
+    background-color: var(--ocean-blue);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.action-buttons button {
+    cursor: pointer;
+    background-color:white;
+}
+
+.action-buttons > button > img {
+    max-width: 20px;
+    cursor: pointer;
+}
+
+.share {
+    margin-right: 5px;
+}
+/* END UPCOMING EVENTS */
+
+/* RESOURCES */
+#resources {
+    background-image: url(../Resources\ Background.png);
+    background-repeat: none;
+    width: 70%;
+    margin: auto;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    height: 830px;
+}
+
+#resources-grid {
+    display: grid;
+    width: 70%;
+    margin: 25px auto 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    overflow: scroll;
+    min-height: 550px;
+}
+
+.resource {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    overflow: scroll;
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+    box-shadow: 0px 4px 4px 4px black;
+    border-radius: 35px;
+    color: white;
+    padding: 10px;
+    /* background-color: inherit;
+    background-clip: padding-box; */
+}
+
+.resource-link:nth-of-type(3n+1) .resource {
+    background-color: var(--dark-purple);
+    background-clip: padding-box;    
+}
+
+.resource-link:nth-of-type(3n+2) .resource {
+    background-color: var(--standard-blue);
+}
+
+.resource-link:nth-of-type(3n) .resource {
+    background-color: var(--navy-blue);
+}
+
+.resource h3 {
+    font-size: 1.5em;
+}
+
+.resource p {
+    font-size: 0.9em;
+}
+/* END RESOURCES */

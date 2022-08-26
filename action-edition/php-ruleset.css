@@ -1,0 +1,7 @@
+@import "default-rules.css";
+
+.success-message {
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}

@@ -1,0 +1,186 @@
+@import "../default-rules.css";
+
+/* JOIN MEC */
+#join-mec-banner {
+    margin-top: 15px;
+}
+
+#join-mec-banner > .heading-large {
+    background: linear-gradient(180deg, #92278F 0%, #002ECF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#mec-ad-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.ad-image-join {
+    width: 30%;
+    padding: 15px 0;
+}
+/* END JOIN MEC */
+
+/* WHY JOIN MEC */
+#why-join-mec {
+    width: 70%;
+    margin: 0 auto 25px;
+}
+
+#why-join-mec ol {
+    list-style-type: none;
+    counter-reset: list-items;
+}
+
+#why-join-mec ol li {
+    padding: 10px 0;
+    line-height: 1.4;
+    text-indent: -40px;
+}
+
+#why-join-mec ol li::before {
+    counter-increment: list-items;
+    content: counter(list-items);
+    background: linear-gradient(180deg, #0084E4 0%, #423087 100%);
+    border: 2px solid var(--standard-blue);
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+/* END WHY JOIN MEC */
+
+
+/* INVITE WEEK */
+#invite-week {
+    width: 70%;
+    margin: 0 auto 25px;
+}
+
+#invite-week > p:first-of-type {
+    padding: 10px 0;
+}
+
+#invite-week > .invite-week-items > .long-rectangle {
+    background-color: var(--sky-blue);
+}
+
+#invite-week-items-list {
+    display:flex;
+    justify-content: space-around;
+}
+
+#invite-week-items-list {
+    list-style-type: none;
+}
+
+.invite-item {
+    margin: -25px auto auto;
+}
+
+.invite-item-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* background-color: var(--navy-blue); */
+}
+
+#invite-week-items-list li:nth-of-type(5n+1) .invite-item-circle {
+    background-color: var(--sky-blue);
+}
+#invite-week-items-list li:nth-of-type(5n+2) .invite-item-circle {
+    background-color: var(--happy-blue);
+}
+#invite-week-items-list li:nth-of-type(5n-2) .invite-item-circle {
+    background-color: var(--standard-blue);
+}
+#invite-week-items-list li:nth-of-type(5n-1) .invite-item-circle {
+    background-color: var(--navy-blue);
+}
+#invite-week-items-list li:nth-of-type(5n) .invite-item-circle {
+    background-color: var(--dark-ocean);
+}
+
+.invite-logistics {
+    padding: 5px 0 2px;
+}
+
+.invite-title {
+    color: var(--standard-blue);
+    padding-bottom: 5px;
+}
+
+.invite-place {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+/* END INVITE WEEK */
+
+/* FORM FOR INVITE WEEK */
+#form-for-invite-week {
+    width: 65%;
+    border-radius: 50px;
+    display: block;
+    background: linear-gradient(180deg, #92278F 0%, #002ECF 100%);
+    margin: 25px auto;
+}
+
+#form-for-invite-week .header-small {
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#invite-week-form {
+    display: block;
+    margin: auto;
+}
+
+.invite-week-form-component {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 0;
+    width: 60%;
+}
+
+.invite-week-form-component p {
+    text-align: left;
+}
+
+#invite-week-form-email input, #invite-week-form-reason input {
+    width: 100%;
+    text-indent: 10px;
+    padding: 5px 0;
+    border: 0;
+}
+
+#invite-week-form-name-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#invite-week-form-name input {
+    width: 45%;
+    padding: 5px;
+    text-align: center;
+}
+
+#invite-week-form button {
+    border: 3px solid white;
+    background: #212020;
+    border-radius: 15px;
+    color: white;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 20%;
+}
+/* END FORM FOR INVITE WEEK */
