@@ -1,0 +1,70 @@
+@import "../default-rules.css";
+
+/* BLOG COMING SOON */
+
+#blog-coming-soon {
+    position: relative;
+    width: 70%;
+    margin: 10px auto;
+}
+
+#blog-coming-soon > .heading-large {
+    background: linear-gradient(180deg, #002ECF 0%, #970093 83.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+#blog-coming-soon > p {
+    font-size: var(--small-text);
+    padding-bottom: 5px;
+}
+
+#blog-coming-soon > .button-link {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+#blog-coming-soon .button-text {
+    color: var(--dark-purple);
+    border-radius: 3px;
+    border: 3px solid var(--medium-purple);
+    padding: 3px;
+}
+
+#three-clocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    margin: auto;
+}
+
+#three-clocks > * {
+    max-width: 40px;
+    padding: 0 5px;
+    padding-bottom: 15px;
+}
+
+/* END BLOG COMING SOON */
+
+/* BLOG ACTION ITEMS */
+#blog-action-items {
+    background-color: var(--dark-ocean);
+    padding: 30px 0;
+    padding-left: 15%;
+}
+
+#links-for-blog-action {
+    width: 70%;
+}
+
+#blog-action-items a {
+    color: white;
+    padding-left: 30px;
+    text-decoration: underline;
+    font-size: var(--small-text);
+}
+/* END BLOG ACTION ITEMS */

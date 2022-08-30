@@ -1,0 +1,268 @@
+/* UNIVERSAL RULES */
+* {
+    font-family: "Anek Gurmukhi", Tahoma;
+    text-decoration: none;
+    margin: 0;
+    line-height: 1.5;
+    /* DEFAULT FONT SIZE is 16 */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    /* COLOR DEFINITIONS */
+    --sky-blue: #42b0ff;
+    --happy-blue: #0094ff;
+    --standard-blue: #236eff;
+    --ufo-blue: #134ad8;
+    --dusk-blue: #002ecf;
+    --navy-blue: #011A73;
+    --dark-ocean: #262262;
+    --dream-purple: #b251ff;
+    --medium-purple: #92278f;
+    --dark-purple: #640061;
+    --office-purple: #5b1be2;
+    --moon-purple: #2c1371;
+    --light-gray: #e8e8e8;
+
+    /* TEXT DEFINITIONS */
+    --jumbo-text: 4em;
+    --large-text: 3em;
+    --medium-text: 2.2em;
+    --small-text: 1.25em;
+
+}
+/* END UNIVERSAL RULES */
+
+/* HEADER CSS */
+
+#mec-header {
+    padding: 10px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 7px 7px -7px gray;
+    overflow: scroll;
+}
+
+#mec-header > a {
+    max-height: 93px;
+}
+
+#mec-right-header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    max-width: 60%;
+    overflow: scroll;
+    color: var(--standard-blue);
+}
+
+.nav-right-link {
+    padding: 5px 10px 0;
+    color: var(--standard-blue);
+}
+
+.nav-right-button {
+    color: var(--standard-blue);
+}
+
+.nav-right-item {
+    color: inherit;
+}
+
+.nav-right-button > .nav-right-item {
+    padding: 3px;
+    border-radius: 3px;
+    border: 2px solid var(--standard-blue);
+}
+
+#mec-right-header .highlighted-link {
+    text-decoration: underline;
+    color: var(--happy-blue);
+    font-weight: bold;
+}
+/* END HEADER CSS */
+
+/* CONTENT CLASS RULES */
+.centered-section {
+    background-color: white;
+}
+
+.centered-section > * {
+    margin: 25px auto;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.standard-section {
+    background-color: white;
+    width: 70%;
+    margin: 25px auto;
+    padding: 15px 0;
+}
+
+.image-section {
+    width: 70%;
+    margin: 25px auto;
+    padding: 15px 0;
+}
+/* END CONTENT CLASS RULES */
+
+/* HEADING RULES */
+.heading-jumbo {
+    font-size: var(--jumbo-text);
+}
+
+.heading-large {
+    font-size: var(--large-text);
+}
+
+.heading-medium {
+    font-size: var(--medium-text);
+}
+/* END HEADING RULES */
+
+/* RECTANGLE RULES */
+
+.medium-rectangle {
+    width: 40%;
+    background-color: black;
+    height: 6px;
+    margin: 5px auto;
+}
+.long-rectangle {
+    width: 100%;
+    background-color: black;
+    height: 6px;
+    margin: 5px 0;
+}
+.small-rectangle {
+    width: 5%;
+    background-color: var(--dusk-blue);
+    height: 6px;
+    margin: 5px 0;
+}
+
+/* END RECTANGLE RULES */
+
+/* BUTTON RULES */
+.button-link {
+    text-decoration: none;
+}
+
+.button-text {
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 2px 0;
+}
+/* END BUTTON RULES */
+
+/* FOOTER CSS */
+.footer {
+    display: block;
+    background-color: var(--light-gray);
+    padding: 10px 0;
+}
+
+.footer-information-clickable {
+    padding: 10px 0;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.communications {
+    display: block;
+}
+
+.newsletter-join {
+    padding-bottom: 15px;
+}
+
+.newsletter-join > p {
+    padding-bottom: 3px;
+}
+
+#join-newsletter-description {
+    color: var(--standard-blue);
+    padding-bottom: 5px;
+}
+
+.newsletter-join input {
+    color: var(--standard-blue);
+    background-color: var(--light-gray);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid var(--standard-blue);
+    padding-bottom: 5px;
+}
+
+.newsletter-join button {
+    border: 0;
+    color: var(--standard-blue);
+    background-color: var(--light-gray);
+}
+
+.newsletter-join button:hover {
+    cursor: pointer;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.follow-us > p {
+    padding-right: 5px;
+}
+
+.footer-sm-image {
+    max-width: 30px;
+    padding: 0 5px;
+}
+
+.links-sitemap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-4:first-of-type {
+    padding-right: 50px;
+}
+
+.links-4 a {
+    display: block;
+    padding: 5px;
+    color: var(--standard-blue);
+}
+
+.action-items .button-text{
+    padding: 3px 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    border: 3px solid var(--standard-blue);
+    color: var(--standard-blue);
+}
+
+.action-items a:first-of-type .button-text:first-of-type {
+    color: white;
+    background-color: var(--standard-blue);
+}
+
+.ending-information {
+    padding-top: 5px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* END FOOTER CSS */
